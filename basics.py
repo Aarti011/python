@@ -9,3 +9,10 @@ for i in range(rows):
         print(i, end=' ')
     # new line after each row
     print('')
+
+
+n=int(input("Enter the no. of rows: "));
+for i in range(n):
+    for j in range(i):
+        print("*", end=" ");
+    print("");
