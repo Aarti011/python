@@ -32,6 +32,8 @@ for i in range(o,0,-1):
     print("");
 print("DONE")
 
+#pyramid pattern
+
 rows = int(input("Enter the row size for the pattern: "))
 for i in range(1, rows + 1):  # Outer loop for rows
     for j in range(rows  - i):  # Inner loop for spaces
