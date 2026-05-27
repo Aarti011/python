@@ -24,6 +24,7 @@ for i in range(m):
         print("#", end=" ");
     print("");
 
+# new pattern with numbers
 o=int(input("Enter the no. of rows required : "));
 for i in range(o,0,-1):
     for j in range(i,0,-1):
