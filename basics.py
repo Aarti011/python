@@ -23,3 +23,10 @@ for i in range(m):
     for j in range(i):
         print("#", end=" ");
     print("");
+
+o=int(input("Enter the no. of rows required : "));
+for i in range(o,0,-1):
+    for j in range(i,0,-1):
+        print(i, end=" ");
+    print("");
+print("DONE")
