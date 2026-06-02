@@ -22,4 +22,14 @@ p1.age = 25
 
 print(p1.name)
 print(p1.age)
+# -----------------------------------------------
 
+class son:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+p1 = Person("Lins", 28)
+
+print(p1.name)
+print(p1.age)
