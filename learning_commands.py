@@ -11,3 +11,15 @@ p1 = Person("Emil", 36)
 
 print(p1.name)
 print(p1.age)
+# ----------------------------------------------
+
+class human:
+  pass
+
+p1 = Human()
+p1.name = "Tobias"
+p1.age = 25
+
+print(p1.name)
+print(p1.age)
+
