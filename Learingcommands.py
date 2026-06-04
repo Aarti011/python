@@ -10,7 +10,7 @@ print(p1.name)
 print(p1.age)
 
 
-
+# acess properties
 class Car:
   def __init__(self, brand, model):
     self.brand = brand
@@ -22,3 +22,14 @@ print(car1.brand)
 print(car1.model)
 
 
+# modify properties 
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+p1 = Person("Tobias", 25)
+print(p1.age)
+
+p1.age = 26
+print(p1.age)
