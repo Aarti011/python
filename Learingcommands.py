@@ -40,5 +40,12 @@ class finder:
   def __init__(self, number):
     self.number=number
     print("This is your number : ", (number/2)+10,)
+
+# general code for function
+def greeting(name1, name2, name3):
+    print("Hey hello mate how u doing :", name1, "\n")
+    print("Hey hello mate what'sup :" , name2, "\n")
+    print("Hey hello mate how have u been : ", name3, "\n")
+greeting("Ankur", "Bhavya", "Kuromi kurdasiya")
 value=finder(numb)
   
