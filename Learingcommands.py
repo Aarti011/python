@@ -33,3 +33,12 @@ print(p1.age)
 
 p1.age = 26
 print(p1.age)
+
+# program to take user imput and get him a number acc to that
+numb= int(input("Enter any number as per your choice : "))
+class finder:
+  def __init__(self, number):
+    self.number=number
+    print("This is your number : ", (number/2)+10,)
+value=finder(numb)
+  
