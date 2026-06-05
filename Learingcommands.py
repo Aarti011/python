@@ -34,7 +34,7 @@ print(p1.age)
 p1.age = 26
 print(p1.age)
 
-# program to take user imput and get him a number acc to that
+# program to take user input and get him a number acc to that
 numb= int(input("Enter any number as per your choice : "))
 class finder:
   def __init__(self, number):
