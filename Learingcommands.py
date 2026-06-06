@@ -48,4 +48,32 @@ def greeting(name1, name2, name3):
     print("Hey hello mate how have u been : ", name3, "\n")
 greeting("Ankur", "Bhavya", "Kuromi kurdasiya")
 value=finder(numb)
+
+class Calculator:
+  def add(self, a, b):
+    return a + b
+
+  def multiply(self, a, b):
+    return a * b
+
+calc = Calculator()
+print(calc.add(5, 3))
+print(calc.multiply(4, 7))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
