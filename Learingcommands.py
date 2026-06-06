@@ -79,14 +79,14 @@ class Justtrying:
     self.gender=gender
     
   def intro(self):
-    return f"My name is (self.name) and I'm a (self.gender)"
+    return f"My name is {self.name} and I'm a {self.gender}"
 
 
 p1=Justtrying("Alfiya", "female")
 print(p1.name)
-print(p1.gender)    
+print(p1.gender)
 
-p1.intro()
+print(p1.intro())
 
 
 
