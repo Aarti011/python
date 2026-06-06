@@ -73,6 +73,22 @@ p1 = Person("Tobias", 28)
 print(p1.get_info())
 
 
+class Justtrying:
+  def __init__(self, name, gender):
+    self.name=name
+    self.gender=gender
+    
+  def intro(self):
+    return f"My name is (self.name) and I'm a (self.gender)"
+
+
+p1=Justtrying("Alfiya", "female")
+print(p1.name)
+print(p1.gender)    
+
+p1.intro()
+
+
 
 
 
