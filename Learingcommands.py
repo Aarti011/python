@@ -88,6 +88,11 @@ print(p1.gender)
 
 print(p1.intro())
 
+# Python Array
+Arr= [11, 4, 6, 7, "Rithvik" , "Canada", "Malaika"] 
+n=len(Arr)
+for i in range(0,n):
+  print(Arr[i] , end="\n")
 
 
 
