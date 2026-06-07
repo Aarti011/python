@@ -100,22 +100,23 @@ for i in range(0,n):
 # then we import that python file in another python file and use its function or objects 
 
 class Welcome:
-  def __intit__(self, name1, name2, name3)
-  self.name1=name1
-  self.name2=name2
-  self.name3=name3
+  def __init__(self, name1, name2, name3):
+    self.name1=name1
+    self.name2=name2
+    self.name3=name3
     
-  def greet1():
+  def greet1(self):
     return f"Hey {self.name1}, how was your day today?"
-  def greet2():
+  def greet2(self):
     return f"Yo {self.name2}, It's nice meeting you again, how have u been these days?"
-  def greet3():
+  def greet3(self):
     return f"Hi {self.name3}, I was wondering where have u gone, so here you are!"
 
 a=Welcome("Rdhika", "Ramya", "Komal")
-P1=a.greet1()
-P2=a.greet2()
-P3=a.greet3()
+p1=a.greet1()
+p2=a.greet2()
+p3=a.greet3()
+
 # save the file with .py extension let's say the name is "mod.py"
 
 # now we have to import the file named "mod.py"
