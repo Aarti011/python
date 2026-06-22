@@ -1,10 +1,10 @@
 class Animal:
-    species = "Dog"  
+    species = "Dog" 
 
     def __init__(self, name, age):
         self.name = name  
         self.age = age  
-
+        
 # Creating an object of the Dog class
 dog1 = Animal("Buddy", 3)
 print(dog1.name) 
@@ -21,8 +21,6 @@ class Person:
 
 x = Person("John", "Doe")
 x.printname()
-
-
 
 
 # Python oops  new program
@@ -45,6 +43,55 @@ stud3=Person("Kanishq", 23, 7)
 print(stud3.name)
 print(stud3.roll)
 print(stud3.standard)
+
+
+# python code for inheritance
+class Inherit
+    def parent(self):
+        print("He is the father")
+class Passer(Inherit):
+    def child(self):
+        print("Now this is the child)
+s1= Inherit()
+s1.parent()
+
+s3 = Passer()
+s3.parent()
+
+
+
+# python code for abstraction
+from abc import ABC, abstractmethod
+class Booker(ABC):
+    @abstractmethod
+    def greet(self):
+        pass
+class Book(Booker):
+    def greet(self):
+        print("That's a hypocrate")
+s1=Book()
+s1.greet()
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
