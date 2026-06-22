@@ -25,7 +25,8 @@ x.printname()
 
 
 
-# Amother oops concept
+# Python oops  new program
+
 class Person:
     def __init__(self, name, roll, standard):
         self.name=name
@@ -44,6 +45,8 @@ stud3=Person("Kanishq", 23, 7)
 print(stud3.name)
 print(stud3.roll)
 print(stud3.standard)
+
+
 
 
 
