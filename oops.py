@@ -73,17 +73,30 @@ s1=Book()
 s1.greet()
     
 
-
+#  Another similar code for abstraction
 from abc import ABC, abstractmethod 
-class People:
+class People(ABC):
     @abstractmethod
     def Boy(self):
         pass
-class People2: 
+class People2(People): 
     def Boy(self):
         print("This is all about Boy")
 p2=People2()
 p2.Boy()
+
+
+
+#  code for encapsulation in python
+
+class Student:
+    def __init__(self):
+        self.__marks=85 #private variable
+    def Marking(self):
+        print(f"Marks= ", self.__marks)
+
+ss= Student()
+ss.Marking()
 
 
 
