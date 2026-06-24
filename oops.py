@@ -3,7 +3,7 @@ class Animal:
 
     def __init__(self, name, age):
         self.name = name  
-        self.age = age  
+        self.age = age
         
 # Creating an object of the Dog class
 dog1 = Animal("Buddy", 3)
@@ -74,8 +74,16 @@ s1.greet()
     
 
 
-
-
+from abc import ABC, abstractmethod 
+class People:
+    @abstractmethod
+    def Boy(self):
+        pass
+class People2: 
+    def Boy(self):
+        print("This is all about Boy")
+p2=People2()
+p2.Boy()
 
 
 
