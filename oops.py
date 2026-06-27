@@ -136,8 +136,13 @@ readingfile=f1.read
 counting= len(readingfile)
 print(f"Total number of words in the python file {counting}")
 
+# reading file line by line
+with open("Python.txt", "r") as f_A 
 
-.,
+for line in f_A:
+    print(line)
+f_A.close()
+
 
 
 
