@@ -111,21 +111,33 @@ p1=PP(20,40)
 p1.Peoplep()
 
 # Python code for opening a file and writing somthing and reading
+
+# writing in file
 file1 =open(Python.txt,"w")
-file1.write("And we also know things could be unpredictable")
-file1.write("/Helloo! there are more to explore...")
+text= input("Enter any text: ")
+file1.write(text)
+file1.write("\nHelloo! there are more to explore...")
+file1.close()
 
-
+# reading from file
 file2 = open(Python.txt, "r")
 data=file2.read()
 print(data)
+file2.close()
 
-with open("demo.txt", "w") as fileA
-file= fileA("Python", "r")
+# other way to read from file
+with open("Python.txt", "w") as fileA
 print(fileA.read())
+fileA.close()
+
+# counting total number of characters in file
+with open("filename.txt", "r") as f1
+readingfile=f1.read
+counting= len(readingfile)
+print(f"Total number of words in the python file {counting}")
 
 
-
+.,
 
 
 
