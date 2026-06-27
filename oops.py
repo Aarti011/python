@@ -100,11 +100,29 @@ ss.Marking()
 
 
 
+# Encapsulation Python another code
+class PP:
+    def __init__(self, x,y):
+        self.x=x
+        self.y=y
+    def Peoplep(self):
+        print(f"The value of x and y is as given {self.x}, {self.y}")
+p1=PP(20,40)
+p1.Peoplep()
+
+# Python code for opening a file and writing somthing and reading
+file1 =open(Python.txt,"w")
+file1.write("And we also know things could be unpredictable")
+file1.write("/Helloo! there are more to explore...")
 
 
+file2 = open(Python.txt, "r")
+data=file2.read()
+print(data)
 
-
-
+with open("demo.txt", "w") as fileA
+file= fileA("Python", "r")
+print(fileA.read())
 
 
 
