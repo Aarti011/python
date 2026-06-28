@@ -126,22 +126,61 @@ print(data)
 file2.close()
 
 # other way to read from file
-with open("Python.txt", "w") as fileA
-print(fileA.read())
+with open("Python.txt", "w") as fileA:
+    print(fileA.read())
 fileA.close()
 
+
+
 # counting total number of characters in file
-with open("filename.txt", "r") as f1
-readingfile=f1.read
-counting= len(readingfile)
-print(f"Total number of words in the python file {counting}")
+with open("filename.txt", "r") as f1:
+    readingfile=f1.read()
+    counting= len(readingfile)
+    print(f"Total number of words in the python file {counting}")
+
+
 
 # reading file line by line
-with open("Python.txt", "r") as f_A 
-
-for line in f_A:
-    print(line)
+with open("Python.txt", "r") as f_A :
+    for line in f_A:
+        print(line)
 f_A.close()
+
+
+
+# counting total number of words in the file
+with open("filename.txt","r") as f:
+    content=f.read()
+    words=content.split()
+    count= len(words)
+    print(count)
+f.close()
+
+# copy contents of one file to another
+with open("filename.txt", "w") as f:
+    f1= f.write("There are multiples ways to do the work but people chose to do it the way they find. \nThe people who chose to stand out are the one who put extra efforts and those are the people who are genuinly unique and loves to work hard to get the word done in a good way in order to achiever good outcome. \nWhile there are people who always look to procastinate and find easiest way so they get the things done in same way- not so satisfied.")
+f.close()
+
+with open("filename.text", "r")as ff:
+    data=ff.read()
+with open("file2.txt", "w") as fff:
+    fff1=fff.write(data)
+ff.close()
+fff.close()
+print("file content copied!")
+
+
+# to read only the first line of the file content 
+with open("filename.text", "r")as ff:
+    data=ff.readline()
+    print(data)
+ff.close()
+
+
+
+    
+
+
 
 
 
