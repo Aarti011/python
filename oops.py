@@ -178,7 +178,14 @@ ff.close()
 
 
 
-    
+# Input multiple datas in the file 
+with open("filename.text", "w")as ff:
+    for i in range(3):
+        inp=input("Enter the data")
+        content=ff.write(inp)
+for line in ff:
+    print(line)
+ff.close()
 
 
 
