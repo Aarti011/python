@@ -7,6 +7,7 @@ for i in range(10):
 
 print("Done!")
 
+
 # typing effect- prints one letter at a time like typnig
 import time
 text="This is not the planet for Aliens"
@@ -19,3 +20,25 @@ for i in text:
   print(i, end="", flush =True)
   time.sleep(0.2)
 
+
+# import time
+for i in range(20):
+    print(" " * i + "⚫", end="\r")
+    time.sleep(0.1)
+
+for i in range(20, 0, -1):
+    print(" " * i + "⚫", end="\r")
+    time.sleep(0.1)
+
+
+
+# bouncing ball effect
+import time
+
+for i in range(20):
+    print(" " * i + "⚫", end="\r")
+    time.sleep(0.1)
+
+for i in range(20, 0, -1):
+    print(" " * i + "⚫", end="\r")
+    time.sleep(0.1)
