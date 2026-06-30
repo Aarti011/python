@@ -21,20 +21,8 @@ for i in text:
   time.sleep(0.2)
 
 
-# import time
-for i in range(20):
-    print(" " * i + "⚫", end="\r")
-    time.sleep(0.1)
-
-for i in range(20, 0, -1):
-    print(" " * i + "⚫", end="\r")
-    time.sleep(0.1)
-
-
-
-# bouncing ball effect
+# Bouncing effect
 import time
-
 for i in range(20):
     print(" " * i + "⚫", end="\r")
     time.sleep(0.1)
@@ -42,3 +30,35 @@ for i in range(20):
 for i in range(20, 0, -1):
     print(" " * i + "⚫", end="\r")
     time.sleep(0.1)
+
+
+# Matrix rain style
+import random
+import time
+chars="0123456789"
+
+for i in range(50):
+    line=""
+    for j in range(40):
+        line+=random.choice(chars)
+    print(line, end="\r")
+    time.sleep(0.2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
